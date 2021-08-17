@@ -1,0 +1,18 @@
+<div class="root" [ngStyle]="{left: isExpanded ? '0vw' : '-20vw'}">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/aquarias.png" alt="aquarias">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/pisces.png" alt="pisces">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/aries.png" alt="aries">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/taurus.png" alt="taurus">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/gemini.png" alt="gemini">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/cancer.png" alt="cancer">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/leo.png" alt="leo">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/virgo.png" alt="virgo">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/libra.png" alt="libra">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/scorpio.png" alt="scorpio">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/sagittarius.png" alt="sagittarius">
+    <img src="https://raw.githubusercontent.com/peckjj/astropnic/master/images/signs/capricorn.png" alt="capricorn">
+</div>
+<div class="arrow" [ngStyle]="{left: isExpanded ? '22vw' : '2vw'}">
+    <h1 *ngIf="isExpanded" (click)="toggleExpansion()"><<</h1>
+    <h1 *ngIf="!isExpanded" (click)="toggleExpansion()">>></h1>
+</div>
